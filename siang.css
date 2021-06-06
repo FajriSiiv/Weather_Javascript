@@ -1,0 +1,26 @@
+.night-mode {
+  position: absolute;
+  z-index: 99;
+  bottom: 5vh;
+  right: 3vw;
+  text-align: center;
+  width: fit-content;
+}
+.night-mode button {
+  font-size: 30px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.toggle-white {
+  background-color: rgb(223, 223, 223) !important;
+}
+.toggle-dark {
+  background-color: #2e3061 !important;
+}
+.toggle-white-font {
+  color: #fff !important;
+}
+.toggle-dark-font {
+  color: #0f1021 !important;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Javascript</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="siang.css" />
+    <link
+      rel="icon"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-xwlyO_bUKjIm17Sb3qRA8GsH2nuhuAO-nu3Nz57IWqkrjle_8dGAUIuqBvzdx9VAGp0&usqp=CAU"
+    />
+  </head>
+  <body>
+    <section class="top-banner">
+      <div class="container">
+        <h1 class="heading">Aplikasi Cuaca</h1>
+        <form class="form-top-banner">
+          <input type="text" placeholder="Cari Kota" autofocus />
+          <button type="submit"><img src="img/search.svg" alt="search" />Cari</button>
+          <section class="msg"></section>
+        </form>
+      </div>
+    </section>
+    <section class="ajax-section">
+      <div class="container">
+        <ul class="cities"></ul>
+      </div>
+    </section>
+    <section class="night-mode">
+      <button>🌓</button>
+    </section>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script> -->
+    <script src="getapi.js"></script>
+    <script src="siang.js"></script>
+  </body>
+</html>
